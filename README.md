@@ -1,5 +1,7 @@
 # Frontend-E-Commerce-website
 Capstone Project 1: E-Commerce App: Thought Note
+
+Note: To run this project properly without disturbing a code You have to open this in VS-Code and press Go live to run this on webBrowser.
  
 Welcome to the First Capstone project. I had a great time in the Front-End Web Development I have created Shopping website which contains different pages like homepage All-product page login page etc. I tried to make the website beautiful by giving different effects and to make it responsive I used bootstrap and media-queries.
 Header, Footer & Navbar: In this project I have used the Dynamic Header, Footer & Navbar in which I have created the one file containing the Header components, one containing the Footer components and one containing the Navbar components and called  them dynamically using JQuery into the required element on every page.  To reduce the repetition of same code in every page.
