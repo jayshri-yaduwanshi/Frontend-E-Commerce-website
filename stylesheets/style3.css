@@ -1,0 +1,85 @@
+
+
+/*Footer Start*/
+footer {
+    background-color: rgba(0, 0, 0, 0.838);
+    border-top: 4px solid #b78c33; 
+    padding: 86px;
+    
+   }
+   .box p {
+       color: #fff;
+       line-height: 1.9;
+       font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+       cursor: pointer;
+   }
+   .box h3{
+   font-size: 16px;
+   font-weight: 700;
+   color: #fff;
+   font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+   cursor: pointer;
+   }
+   .box svg{
+   color: #fff;
+   font-size: 20px;
+   margin-right: 10px;
+   font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+   cursor: pointer;
+   }
+   .box ul{
+       list-style: none;
+       padding: 0;
+       font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+       cursor: pointer;
+   }
+   .box ul li a{
+       text-decoration: none;
+       padding: 0;
+       color: #fff;
+       line-height: 2.5;
+       font-weight: 100;
+       font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+       cursor: pointer;
+   }
+   .box h2{
+       color: #fff;
+       font-size: 20px;
+       font-weight: 700;
+       font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+       cursor: pointer;
+   }
+   .follow{
+       font-size: 18px;
+       margin-left: 15px;
+       display: flex;
+       flex-direction: row;
+       font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+       cursor: pointer;
+   }
+   .copyright{
+   justify-content: center;
+   font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size:50%;
+   color: white;
+   align-items: center;
+   font-size: 100%;
+   cursor: pointer;
+       
+   }
+   hr{
+       color: white;
+       font-weight:100px;
+       cursor: pointer;
+   }
+   @media (max-width:767px){
+       .box{
+           margin-bottom: 5px;
+       }
+   }
+   @media (min-width: 768px) and (max-width:991px){
+       .box{
+           margin-bottom: 5px;
+       }
+   }
+/*Footer End*/

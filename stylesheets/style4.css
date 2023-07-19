@@ -1,0 +1,192 @@
+body{
+    background-image: url("/Images/blur.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+/*-----All Product CSS---------*/
+.headings{
+    width: 30%;
+        font-size:190%;
+        font-weight: bold;
+        text-shadow:#0c39db;
+        color: #0d0303;
+        font-family: eczar, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-direction: row;
+        margin-left: 30%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        
+}
+
+h6{
+        width: 30%;
+        font-size:450%;
+        text-shadow:#6A6D78;
+        text-decoration:underline;
+        color: #fff;
+        font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+     
+}
+
+
+.wrapper {
+    max-width: 1900;
+    width: 100%;
+    position:relative;
+    padding-right: 0%;
+}
+.wrapper i {
+    top: 10%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+    margin-top: 15%;
+  z-index: 1;
+    left:-22px;
+}
+.wrapper i:last-child{
+    margin-top: 15%;
+    right: -22px;
+}
+.wrapper .carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 6) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    margin-top:2%;
+    
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+.carousel :where(.card, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.btn6{
+    height: 9%;
+    width: 95%;
+    justify-content: center;
+    text-align: center;
+    font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height:100%;
+    width: 100%;
+    list-style: none;
+    background:#FFCC00;
+    background-image: linear-gradient(to bottom left, rgb(14, 13, 13), rgb(136, 113, 113), rgb(14, 14, 14));
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-left: 1%;
+}
+.carousel .card .img {
+   
+    height: 100%;
+    width:100%;
+    border-radius: 2%;
+   
+}
+.card .img img {
+    width: 99%;
+    height:99%;
+    border-radius:2%;
+    object-fit: cover;
+    
+    
+}
+.carousel .card h2 {
+    font-size: 1.1rem;
+    font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carousel .card  {
+    color: white;
+    font-size: 1.31rem;
+}
+span{
+color: #131415;  
+font-size: 1.31rem;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+button{
+    color:black;
+    height: 70%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 3) - 9px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+
+/*Content CSS End*/
+

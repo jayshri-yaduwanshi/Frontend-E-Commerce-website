@@ -1,0 +1,48 @@
+body{
+    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+}
+
+.brandname{
+    font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10%;
+    margin-right: 10%;
+   margin-top: 16%;
+    font-size:500%;
+   font-weight: bold;
+    color: rgb(233, 207, 9);
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.slogan{
+    font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size:300%;
+        color: white;
+        margin-bottom: 16%;
+        font-size:300%;
+        display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.products{
+
+        text-align: center;
+        font-size:300%;
+        color:#fbcb09;
+        font-family: eczar, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        background-image: linear-gradient(to top left, black, rgb(55, 23, 23), black);
+        height: 12%;
+        width: 100%;
+
+}

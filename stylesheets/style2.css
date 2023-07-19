@@ -1,0 +1,26 @@
+
+
+.dropdown-item{
+color: black;
+
+}
+
+.dropdown-item:hover{
+    color: yellow;
+    background-color: black;
+ 
+}
+.header2{
+    z-index: 2;
+}
+
+.dropdown{
+    position: absolute;
+    z-index : 999; 
+    }
+.active1:hover{
+    color: rgb(14, 14, 14);
+    background-color: #ffd940;
+    position: relative;
+    z-index: 1;
+}
